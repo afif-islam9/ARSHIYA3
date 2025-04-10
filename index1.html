@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Arshiya</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      overflow: hidden;
+    }
+
+    .container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .photo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+      width: 250px;
+      height: auto;
+      opacity: 0.95;
+    }
+
+    .floating-text {
+      position: absolute;
+      font-size: 1.2rem;
+      color: #fff;
+      opacity: 0.8;
+      animation: float 10s infinite ease-in-out;
+      white-space: nowrap;
+      text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="photo" src="arshiya.jpg" alt="Arshiya">
+    
+    <div class="floating-text" style="top: 10%; left: 10%;">"Oww..Wait, What?! You are Arshiya?"</div>
+    <div class="floating-text" style="top: 20%; right: 15%;">"I can’t believe my eyes…"</div>
+    <div class="floating-text" style="top: 35%; left: 20%;">"You’re really here."</div>
+    <div class="floating-text" style="top: 50%; right: 25%;">"How pretty you are…"</div>
+    <div class="floating-text" style="top: 65%; left: 15%;">"So beautiful."</div>
+    <div class="floating-text" style="top: 75%; right: 10%;">"That calm in your eyes…"</div>
+    <div class="floating-text" style="top: 85%; left: 30%;">"Even silence feels warm with you."</div>
+    <div class="floating-text" style="bottom: 5%; right: 35%;">"You don’t even try, and yet you shine."</div>
+
+  </div>
+</body>
+</html>
